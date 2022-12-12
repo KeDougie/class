@@ -1,0 +1,82 @@
+html {
+    --primary: #170101;
+    --font: 'Andale Mono', 'Menlo', 'Courier New', Courier, monospace;
+    --dark: #222;
+    --gray: #D8D8D8;
+    --white: #FFF;
+  }
+
+  body {
+    min-height: 100vh;
+    background-color: #ff9d5c;
+    font-family: var(--font);
+    background-size: 450px;
+    padding: 20px;
+  }
+
+  h1 {
+    color: var(--white);
+    border-bottom: 5px solid var(--white);
+    padding: 20px;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 3em;
+    font-weight: 100;
+  }
+  h2 {
+    color: var(--primary);
+    padding: 20px;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 1em;
+    font-weight: 50;
+  }
+
+  p {
+    color: var(--primary);
+    padding: 20px;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 1em;
+    font-weight: 50;
+  }
+
+
+  label {
+    margin: 20px;
+    color: var(--darkGray);
+  }
+
+  input {
+    display: block;
+    font-family: var(--font);
+    font-size: 2em;
+    padding: 10px;
+    font-weight: 100;
+    border: 3px solid var(--gray);
+    margin: 20px;
+    background-color: var(--white);
+    width: calc(100% - 65px);
+  }
+
+  #encrypted {
+    border-color: var(--dark);
+    background-color: var(--dark);
+    color: var(--white);
+  }
+
+  .mainContainer {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  hr {
+    border: 1px solid var(--primary);
+    margin: 50px 0px;
+  }
+
+  .tech img {
+    width: 50px;
+    display: block;
+    margin-top: 50px;
+  }
